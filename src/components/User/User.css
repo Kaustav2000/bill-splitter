@@ -1,0 +1,15 @@
+.userName{
+    width: 95%;
+    height: 5rem;
+    border-radius: 10px;
+    background-color: var(--color-list);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cover{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
