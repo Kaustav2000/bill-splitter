@@ -7,7 +7,7 @@ const Layout = () => {
     return (
         <div className='layout-container'>
             <UserList/>
-            <div style={{backgroundColor:'red'}}></div>
+            <div></div>
         </div>
     )
 }
