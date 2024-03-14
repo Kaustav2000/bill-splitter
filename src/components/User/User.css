@@ -5,8 +5,29 @@
     background-color: var(--color-list);
     padding: 1rem;
     margin-bottom: 1rem;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
 }
-
+.splitBtn{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: var(--color-button);
+    border: none;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(249,177,122,1);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(249,177,122,1);
+    box-shadow: 0px 0px 8px 1px rgba(249,177,122,1);
+}
+.userName-content{
+    width: 70%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .cover{
     width: 100%;
     display: flex;

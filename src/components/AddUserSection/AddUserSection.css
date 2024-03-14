@@ -1,5 +1,5 @@
 .addUserContainer{
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
     height: 8rem;
     width: 100%;
     display: flex;

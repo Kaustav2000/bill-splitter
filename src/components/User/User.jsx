@@ -6,7 +6,12 @@ const User = ({user}) => {
         <div className="cover">
 
         <div className='userName'>
-            {user.name}
+            <div className='userName-content'>
+            <p>{user.name}</p>
+            <p>He/She owes you $100</p>
+            </div>
+            <button className='splitBtn'>Split</button>
+
         </div>
         </div>
     )
